@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="grid">
+        <div
+          class="blur-load"
+          style="background-image: url(./assets/small/city_2_small.jpg)">
+          <img src="./assets/city_2.jpg" alt="" loadin="lazy" />
+        </div>
+        <div
+          class="blur-load"
+          style="background-image: url(./assets/small/city_1_small.jpg)">
+          <img src="./assets/city_1.jpg" alt="" loadin="lazy" />
+        </div>
+        <div
+          class="blur-load"
+          style="background-image: url(./assets/small/forest_1_small.jpg)">
+          <img src="./assets/forest_1.jpg" alt="" loadin="lazy" />
+        </div>
+        <div
+          class="blur-load"
+          style="background-image: url(./assets/small/mountain_1_small.jpg)">
+          <img src="./assets/mountain_1.jpg" alt="" loading="lazy" />
+        </div>
+        <div
+          class="blur-load"
+          style="background-image: url(./assets/small/mountain_2_small.jpg)">
+          <img src="./assets/mountain_2.jpg" alt="" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./main.js"></script>
